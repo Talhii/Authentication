@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second"
+    tools:context=".Guest">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/guest1"></de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:text="Guest"
+        android:textAlignment="center"
+        android:textColor="#FFC400"
+        android:textColorHint="#F44336"
+        android:textSize="50dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnformate2"
+        android:drawableRight="@drawable/ic_email"
+        android:drawablePadding="16dp"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#00B0FF" />
+
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnformate2"
+        android:drawableRight="@drawable/father"
+        android:drawablePadding="16dp"
+        android:hint="Your City"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#00B0FF" />
+
+    <EditText
+        android:id="@+id/quater"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnformate2"
+        android:drawableRight="@drawable/mail"
+        android:drawablePadding="16dp"
+        android:hint="Quater Number of Host"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#00B0FF" />
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btnformate2"
+        android:drawableRight="@drawable/ic_id"
+        android:drawablePadding="16dp"
+        android:hint="Service_id of Host"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#00B0FF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btnformate"
+        android:onClick="Request"
+        android:text="Proceed"
+        android:textColor="#fff"></Button>
+</LinearLayout>

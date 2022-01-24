@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yup"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi There,Welcome Back"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="This app can be used by multiple type of users"
+        android:textAlignment="center"
+        android:textColor="#FF3D00"
+        android:textSize="22dp"
+        android:textStyle="italic"></TextView>
+    <Button
+        android:id="@+id/host"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/third"
+         />
+
+
+    <TextView
+        android:id="@+id/hostview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/btnformate1"
+        android:gravity="center"
+        android:text="Login as Host"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/guest1"
+         />
+
+    <TextView
+        android:id="@+id/guestview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/btnformate1"
+        android:gravity="center"
+        android:text="Use as Guest"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="Note : If you try to switch from host to guest then you have to RERUN Application"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+
+</RelativeLayout>

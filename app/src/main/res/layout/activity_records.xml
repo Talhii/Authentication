@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eigth"
+    tools:context=".Records">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Guest"
+        android:textAlignment="center"
+        android:textColor="#1DE9B6"
+        android:textSize="40dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="If you verify that guest then generate code for it"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Name:"
+        android:textColor="#fff"
+
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/gname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#fff"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_marginTop="170dp"
+        android:text="City:"
+        android:textColor="#fff"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/gcname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="170dp"
+        android:textColor="#fff"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Quater Number:"
+        android:textColor="#fff"
+
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:id="@+id/gquater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="220dp"
+        android:textColor="#fff"
+        android:textSize="25dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Once the code is generated then guest will be able to share his location"
+        android:textColor="#fff"
+        android:textSize="18dp"></TextView>
+
+
+    <Button
+        android:id="@+id/allow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/btnformate"
+        android:gravity="center"
+        android:text="Generate Code"
+        android:textAlignment="center"
+        android:textColor="#fff"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/btnformate"
+        android:gravity="center"
+        android:onClick="check"
+        android:text="Show Location"
+        android:textAlignment="center"
+        android:textColor="#fff"></Button>
+
+
+
+
+
+
+</RelativeLayout>

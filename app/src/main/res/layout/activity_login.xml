@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/second"
+    tools:context=".login">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Authentication"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="25dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/first"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:text="HOST"
+        android:textAlignment="center"
+        android:textColor="#1DE9B6"
+        android:textSize="50dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btnformate2"
+        android:drawableRight="@drawable/ic_email"
+        android:drawablePadding="16dp"
+        android:hint="Service_id"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000"
+        android:textColorHint="#00B0FF" />
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="367dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btnformate2"
+        android:drawableRight="@drawable/ic_pass"
+        android:drawablePadding="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+
+        android:padding="12dp"
+        android:textColor="#000"
+
+        android:textColorHint="#00B0FF" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/btnformate"
+        android:gravity="center"
+        android:onClick="Login"
+        android:padding="14dp"
+        android:text="Log In"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textColorHint="#E91E63"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="1dp"
+        android:text="Don't have an account?"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_below="@+id/login"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Sign up?"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
